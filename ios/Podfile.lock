@@ -1,0 +1,575 @@
+PODS:
+  - agora_rtc_engine (6.2.6):
+    - AgoraIrisRTC_iOS (= 4.2.6-build.3)
+    - AgoraRtcEngine_iOS (= 4.2.6)
+    - Flutter
+  - AgoraIrisRTC_iOS (4.2.6-build.3)
+  - AgoraRtcEngine_iOS (4.2.6):
+    - AgoraRtcEngine_iOS/AIAEC (= 4.2.6)
+    - AgoraRtcEngine_iOS/AINS (= 4.2.6)
+    - AgoraRtcEngine_iOS/AudioBeauty (= 4.2.6)
+    - AgoraRtcEngine_iOS/ClearVision (= 4.2.6)
+    - AgoraRtcEngine_iOS/ContentInspect (= 4.2.6)
+    - AgoraRtcEngine_iOS/DRM (= 4.2.6)
+    - AgoraRtcEngine_iOS/FaceDetection (= 4.2.6)
+    - AgoraRtcEngine_iOS/ReplayKit (= 4.2.6)
+    - AgoraRtcEngine_iOS/RtcBasic (= 4.2.6)
+    - AgoraRtcEngine_iOS/SpatialAudio (= 4.2.6)
+    - AgoraRtcEngine_iOS/VideoCodecDec (= 4.2.6)
+    - AgoraRtcEngine_iOS/VideoCodecEnc (= 4.2.6)
+    - AgoraRtcEngine_iOS/VirtualBackground (= 4.2.6)
+    - AgoraRtcEngine_iOS/VQA (= 4.2.6)
+  - AgoraRtcEngine_iOS/AIAEC (4.2.6)
+  - AgoraRtcEngine_iOS/AINS (4.2.6)
+  - AgoraRtcEngine_iOS/AudioBeauty (4.2.6)
+  - AgoraRtcEngine_iOS/ClearVision (4.2.6)
+  - AgoraRtcEngine_iOS/ContentInspect (4.2.6)
+  - AgoraRtcEngine_iOS/DRM (4.2.6)
+  - AgoraRtcEngine_iOS/FaceDetection (4.2.6)
+  - AgoraRtcEngine_iOS/ReplayKit (4.2.6)
+  - AgoraRtcEngine_iOS/RtcBasic (4.2.6)
+  - AgoraRtcEngine_iOS/SpatialAudio (4.2.6)
+  - AgoraRtcEngine_iOS/VideoCodecDec (4.2.6)
+  - AgoraRtcEngine_iOS/VideoCodecEnc (4.2.6)
+  - AgoraRtcEngine_iOS/VirtualBackground (4.2.6)
+  - AgoraRtcEngine_iOS/VQA (4.2.6)
+  - AppAuth (1.7.5):
+    - AppAuth/Core (= 1.7.5)
+    - AppAuth/ExternalUserAgent (= 1.7.5)
+  - AppAuth/Core (1.7.5)
+  - AppAuth/ExternalUserAgent (1.7.5):
+    - AppAuth/Core
+  - audio_session (0.0.1):
+    - Flutter
+  - audio_waveforms (0.0.1):
+    - Flutter
+  - audioplayers_darwin (0.0.1):
+    - Flutter
+  - BranchSDK (3.3.0)
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - device_info_plus (0.0.1):
+    - Flutter
+  - DKImagePickerController/Core (4.3.9):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.9)
+  - DKImagePickerController/PhotoGallery (4.3.9):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.9)
+  - DKPhotoGallery (0.0.19):
+    - DKPhotoGallery/Core (= 0.0.19)
+    - DKPhotoGallery/Model (= 0.0.19)
+    - DKPhotoGallery/Preview (= 0.0.19)
+    - DKPhotoGallery/Resource (= 0.0.19)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - ffmpeg-kit-ios-https (6.0)
+  - ffmpeg_kit_flutter (6.0.3):
+    - ffmpeg_kit_flutter/https (= 6.0.3)
+    - Flutter
+  - ffmpeg_kit_flutter/https (6.0.3):
+    - ffmpeg-kit-ios-https (= 6.0)
+    - Flutter
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Firebase/CoreOnly (10.25.0):
+    - FirebaseCore (= 10.25.0)
+  - Firebase/Messaging (10.25.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.25.0)
+  - firebase_core (2.32.0):
+    - Firebase/CoreOnly (= 10.25.0)
+    - Flutter
+  - firebase_messaging (14.7.13):
+    - Firebase/Messaging (= 10.25.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (10.25.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreInternal (10.29.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseInstallations (10.29.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.25.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - Flutter (1.0.0)
+  - flutter_branch_sdk (7.1.0):
+    - BranchSDK (~> 3.3.0)
+    - Flutter
+  - flutter_contacts (0.0.1):
+    - Flutter
+  - flutter_image_compress_common (1.0.0):
+    - Flutter
+    - Mantle
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - flutter_native_splash (0.0.1):
+    - Flutter
+  - flutter_secure_storage (6.0.0):
+    - Flutter
+  - flutter_udid (0.0.1):
+    - Flutter
+    - SAMKeychain
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - gallery_saver (0.0.1):
+    - Flutter
+  - Giphy (2.2.4):
+    - libwebp
+  - google_sign_in_ios (0.0.1):
+    - AppAuth (>= 1.7.4)
+    - Flutter
+    - FlutterMacOS
+    - GoogleSignIn (~> 7.1)
+    - GTMSessionFetcher (>= 3.4.0)
+  - GoogleDataTransport (9.4.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMLKit/BarcodeScanning (6.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitBarcodeScanning (~> 5.0.0)
+  - GoogleMLKit/MLKitCore (6.0.0):
+    - MLKitCommon (~> 11.0.0)
+  - GoogleSignIn (7.1.0):
+    - AppAuth (< 2.0, >= 1.7.3)
+    - GTMAppAuth (< 5.0, >= 4.1.1)
+    - GTMSessionFetcher/Core (~> 3.3)
+  - GoogleToolboxForMac/Defines (4.2.1)
+  - GoogleToolboxForMac/Logger (4.2.1):
+    - GoogleToolboxForMac/Defines (= 4.2.1)
+  - "GoogleToolboxForMac/NSData+zlib (4.2.1)":
+    - GoogleToolboxForMac/Defines (= 4.2.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (7.13.3):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (7.13.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.13.3)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/Reachability (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/UserDefaults (7.13.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (4.1.1):
+    - AppAuth/Core (~> 1.7)
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3)
+  - GTMSessionFetcher (3.5.0):
+    - GTMSessionFetcher/Full (= 3.5.0)
+  - GTMSessionFetcher/Core (3.5.0)
+  - GTMSessionFetcher/Full (3.5.0):
+    - GTMSessionFetcher/Core
+  - image_gallery_saver (2.0.2):
+    - Flutter
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - iris_method_channel (0.0.1):
+    - Flutter
+  - jitsi_meet_flutter_sdk (10.2.1):
+    - Flutter
+    - JitsiMeetSDK (= 10.2.1)
+  - JitsiMeetSDK (10.2.1):
+    - Giphy (= 2.2.4)
+    - JitsiWebRTC (~> 124.0)
+  - JitsiWebRTC (124.0.1)
+  - just_audio (0.0.1):
+    - Flutter
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - Mantle (2.2.0):
+    - Mantle/extobjc (= 2.2.0)
+  - Mantle/extobjc (2.2.0)
+  - MLImage (1.0.0-beta5)
+  - MLKitBarcodeScanning (5.0.0):
+    - MLKitCommon (~> 11.0)
+    - MLKitVision (~> 7.0)
+  - MLKitCommon (11.0.0):
+    - GoogleDataTransport (< 10.0, >= 9.4.1)
+    - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+    - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+    - GoogleUtilities/UserDefaults (< 8.0, >= 7.13.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+  - MLKitVision (7.0.0):
+    - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+    - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+    - MLImage (= 1.0.0-beta5)
+    - MLKitCommon (~> 11.0)
+  - mobile_scanner (5.2.3):
+    - Flutter
+    - GoogleMLKit/BarcodeScanning (~> 6.0.0)
+  - nanopb (2.30910.0):
+    - nanopb/decode (= 2.30910.0)
+    - nanopb/encode (= 2.30910.0)
+  - nanopb/decode (2.30910.0)
+  - nanopb/encode (2.30910.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - PDFTron (1.0.1-36)
+  - pdftron_flutter (0.0.1):
+    - Flutter
+    - PDFTron
+    - PDFTronTools
+  - PDFTronTools (1.0.1-36):
+    - PDFTron
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - PromisesObjC (2.4.0)
+  - ReachabilitySwift (5.2.4)
+  - record_darwin (1.0.0):
+    - Flutter
+    - FlutterMacOS
+  - SAMKeychain (1.5.3)
+  - SDWebImage (5.19.7):
+    - SDWebImage/Core (= 5.19.7)
+  - SDWebImage/Core (5.19.7)
+  - SDWebImageWebPCoder (0.14.6):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.17)
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sign_in_with_apple (0.0.1):
+    - Flutter
+  - sqflite (0.0.3):
+    - Flutter
+    - FlutterMacOS
+  - SwiftyGif (5.4.5)
+  - syncfusion_flutter_pdfviewer (0.0.1):
+    - Flutter
+  - Toast (4.1.1)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_compress (0.3.0):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - wakelock_plus (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - agora_rtc_engine (from `.symlinks/plugins/agora_rtc_engine/ios`)
+  - audio_session (from `.symlinks/plugins/audio_session/ios`)
+  - audio_waveforms (from `.symlinks/plugins/audio_waveforms/ios`)
+  - audioplayers_darwin (from `.symlinks/plugins/audioplayers_darwin/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - ffmpeg_kit_flutter (from `.symlinks/plugins/ffmpeg_kit_flutter/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_branch_sdk (from `.symlinks/plugins/flutter_branch_sdk/ios`)
+  - flutter_contacts (from `.symlinks/plugins/flutter_contacts/ios`)
+  - flutter_image_compress_common (from `.symlinks/plugins/flutter_image_compress_common/ios`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - flutter_udid (from `.symlinks/plugins/flutter_udid/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - gallery_saver (from `.symlinks/plugins/gallery_saver/ios`)
+  - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/darwin`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - iris_method_channel (from `.symlinks/plugins/iris_method_channel/ios`)
+  - jitsi_meet_flutter_sdk (from `.symlinks/plugins/jitsi_meet_flutter_sdk/ios`)
+  - just_audio (from `.symlinks/plugins/just_audio/ios`)
+  - mobile_scanner (from `.symlinks/plugins/mobile_scanner/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - PDFTron (from `https://pdftron.com/downloads/ios/flutter/pdftron/latest.podspec`)
+  - pdftron_flutter (from `.symlinks/plugins/pdftron_flutter/ios`)
+  - PDFTronTools (from `https://pdftron.com/downloads/ios/flutter/pdftron-tools/latest.podspec`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - record_darwin (from `.symlinks/plugins/record_darwin/ios`)
+  - share_plus (from `.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sign_in_with_apple (from `.symlinks/plugins/sign_in_with_apple/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/darwin`)
+  - syncfusion_flutter_pdfviewer (from `.symlinks/plugins/syncfusion_flutter_pdfviewer/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_compress (from `.symlinks/plugins/video_compress/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+  - wakelock_plus (from `.symlinks/plugins/wakelock_plus/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AgoraIrisRTC_iOS
+    - AgoraRtcEngine_iOS
+    - AppAuth
+    - BranchSDK
+    - DKImagePickerController
+    - DKPhotoGallery
+    - ffmpeg-kit-ios-https
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - Giphy
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - JitsiMeetSDK
+    - JitsiWebRTC
+    - libwebp
+    - Mantle
+    - MLImage
+    - MLKitBarcodeScanning
+    - MLKitCommon
+    - MLKitVision
+    - nanopb
+    - PromisesObjC
+    - ReachabilitySwift
+    - SAMKeychain
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SwiftyGif
+    - Toast
+
+EXTERNAL SOURCES:
+  agora_rtc_engine:
+    :path: ".symlinks/plugins/agora_rtc_engine/ios"
+  audio_session:
+    :path: ".symlinks/plugins/audio_session/ios"
+  audio_waveforms:
+    :path: ".symlinks/plugins/audio_waveforms/ios"
+  audioplayers_darwin:
+    :path: ".symlinks/plugins/audioplayers_darwin/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  ffmpeg_kit_flutter:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_branch_sdk:
+    :path: ".symlinks/plugins/flutter_branch_sdk/ios"
+  flutter_contacts:
+    :path: ".symlinks/plugins/flutter_contacts/ios"
+  flutter_image_compress_common:
+    :path: ".symlinks/plugins/flutter_image_compress_common/ios"
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  flutter_udid:
+    :path: ".symlinks/plugins/flutter_udid/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  gallery_saver:
+    :path: ".symlinks/plugins/gallery_saver/ios"
+  google_sign_in_ios:
+    :path: ".symlinks/plugins/google_sign_in_ios/darwin"
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  iris_method_channel:
+    :path: ".symlinks/plugins/iris_method_channel/ios"
+  jitsi_meet_flutter_sdk:
+    :path: ".symlinks/plugins/jitsi_meet_flutter_sdk/ios"
+  just_audio:
+    :path: ".symlinks/plugins/just_audio/ios"
+  mobile_scanner:
+    :path: ".symlinks/plugins/mobile_scanner/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  PDFTron:
+    :podspec: https://pdftron.com/downloads/ios/flutter/pdftron/latest.podspec
+  pdftron_flutter:
+    :path: ".symlinks/plugins/pdftron_flutter/ios"
+  PDFTronTools:
+    :podspec: https://pdftron.com/downloads/ios/flutter/pdftron-tools/latest.podspec
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  record_darwin:
+    :path: ".symlinks/plugins/record_darwin/ios"
+  share_plus:
+    :path: ".symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sign_in_with_apple:
+    :path: ".symlinks/plugins/sign_in_with_apple/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/darwin"
+  syncfusion_flutter_pdfviewer:
+    :path: ".symlinks/plugins/syncfusion_flutter_pdfviewer/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_compress:
+    :path: ".symlinks/plugins/video_compress/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+  wakelock_plus:
+    :path: ".symlinks/plugins/wakelock_plus/ios"
+
+SPEC CHECKSUMS:
+  agora_rtc_engine: 5b2a7c221e1f3dfb8dee0fb0659f269be24fa81b
+  AgoraIrisRTC_iOS: 8346499b82968a4967e3d0bec2cf14bf7c0c3f76
+  AgoraRtcEngine_iOS: ac647332ad8f86d79cf810601c9e62b28c3a4de0
+  AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
+  audio_session: 088d2483ebd1dc43f51d253d4a1c517d9a2e7207
+  audio_waveforms: cd736909ebc6b6a164eb74701d8c705ce3241e1c
+  audioplayers_darwin: 877d9a4d06331c5c374595e46e16453ac7eafa40
+  BranchSDK: 262dbab56b767807f49f45191c8499cd9c4b4d76
+  connectivity_plus: bf0076dd84a130856aa636df1c71ccaff908fa1d
+  device_info_plus: c6fb39579d0f423935b0c9ce7ee2f44b71b9fce6
+  DKImagePickerController: 946cec48c7873164274ecc4624d19e3da4c1ef3c
+  DKPhotoGallery: b3834fecb755ee09a593d7c9e389d8b5d6deed60
+  ffmpeg-kit-ios-https: f9c838aa5400a6c5ba12324c6b798f52197ba354
+  ffmpeg_kit_flutter: b4ca70cac3fc1d8ac14cdc660754b60870358732
+  file_picker: 15fd9539e4eb735dc54bae8c0534a7a9511a03de
+  Firebase: 0312a2352584f782ea56f66d91606891d4607f06
+  firebase_core: a626d00494efa398e7c54f25f1454a64c8abf197
+  firebase_messaging: 83bf266eb1d4ff0565d8c511172c1e67fb4ec50f
+  FirebaseCore: 7ec4d0484817f12c3373955bc87762d96842d483
+  FirebaseCoreInternal: df84dd300b561c27d5571684f389bf60b0a5c934
+  FirebaseInstallations: 913cf60d0400ebd5d6b63a28b290372ab44590dd
+  FirebaseMessaging: 88950ba9485052891ebe26f6c43a52bb62248952
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_branch_sdk: 1ca1798cfb9ff9acf11028dee0592e3fa0234649
+  flutter_contacts: edb1c5ce76aa433e20e6cb14c615f4c0b66e0983
+  flutter_image_compress_common: ec1d45c362c9d30a3f6a0426c297f47c52007e3e
+  flutter_local_notifications: 4cde75091f6327eb8517fa068a0a5950212d2086
+  flutter_native_splash: 52501b97d1c0a5f898d687f1646226c1f93c56ef
+  flutter_secure_storage: 23fc622d89d073675f2eaa109381aefbcf5a49be
+  flutter_udid: a2482c67a61b9c806ef59dd82ed8d007f1b7ac04
+  fluttertoast: 31b00dabfa7fb7bacd9e7dbee580d7a2ff4bf265
+  gallery_saver: 9fc173c9f4fcc48af53b2a9ebea1b643255be542
+  Giphy: 6b5f6986c8df4f71e01a8ef86595f426b3439fb5
+  google_sign_in_ios: 07375bfbf2620bc93a602c0e27160d6afc6ead38
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleMLKit: 97ac7af399057e99182ee8edfa8249e3226a4065
+  GoogleSignIn: d4281ab6cf21542b1cfaff85c191f230b399d2db
+  GoogleToolboxForMac: d1a2cbf009c453f4d6ded37c105e2f67a32206d8
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
+  GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
+  image_gallery_saver: cb43cc43141711190510e92c460eb1655cd343cb
+  image_picker_ios: 99dfe1854b4fa34d0364e74a78448a0151025425
+  iris_method_channel: 0617c689164d8154c020c50f63ca79f92b8a7b9d
+  jitsi_meet_flutter_sdk: 1c75d5f7cf2f8a893d36fd6bb90d69ac02a87de9
+  JitsiMeetSDK: cdba360baf6426a2f98cdc313c5b352d8cd3bbd7
+  JitsiWebRTC: d0ae5fd6a81e771bfd82c2ee6c6bb542ebd65ee8
+  just_audio: baa7252489dbcf47a4c7cc9ca663e9661c99aafa
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
+  MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
+  MLKitBarcodeScanning: 10ca0845a6d15f2f6e911f682a1998b68b973e8b
+  MLKitCommon: afec63980417d29ffbb4790529a1b0a2291699e1
+  MLKitVision: e858c5f125ecc288e4a31127928301eaba9ae0c1
+  mobile_scanner: 96e91f2e1fb396bb7df8da40429ba8dfad664740
+  nanopb: 438bc412db1928dac798aa6fd75726007be04262
+  package_info_plus: 58f0028419748fad15bf008b270aaa8e54380b1c
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  PDFTron: 950a3d61d28373048f71befb044ba63b606ba2d1
+  pdftron_flutter: 26edc34717afac412bcccb6062a36c6329564b07
+  PDFTronTools: 06dc1e7c0dfe1b1056318c933efd206fc23b54ad
+  permission_handler_apple: 036b856153a2b1f61f21030ff725f3e6fece2b78
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
+  record_darwin: df0a677188e5fed18472550298e675f19ddaffbe
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
+  SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
+  share_plus: c3fef564749587fc939ef86ffb283ceac0baf9f5
+  shared_preferences_foundation: b4c3b4cddf1c21f02770737f147a3f5da9d39695
+  sign_in_with_apple: f3bf75217ea4c2c8b91823f225d70230119b8440
+  sqflite: 673a0e54cc04b7d6dba8d24fb8095b31c3a99eec
+  SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
+  syncfusion_flutter_pdfviewer: bb9998884b864cfedf72628df3503bdf57e397c0
+  Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
+  url_launcher_ios: bbd758c6e7f9fd7b5b1d4cde34d2b95fcce5e812
+  video_compress: fce97e4fb1dfd88175aa07d2ffc8a2f297f87fbe
+  video_player_avfoundation: 02011213dab73ae3687df27ce441fbbcc82b5579
+  wakelock_plus: 78ec7c5b202cab7761af8e2b2b3d0671be6c4ae1
+
+PODFILE CHECKSUM: fbc07ae3b491cd80148cca3336083b647514617d
+
+COCOAPODS: 1.15.2

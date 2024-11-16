@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "497586000093",
+    "project_id": "tough-totem-346001",
+    "storage_bucket": "tough-totem-346001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497586000093:android:5c6a54e43d8731b91a8b34",
+        "android_client_info": {
+          "package_name": "social.educhain.pitech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwDCVwjyGgRwY_n-Eybh9sFP2D1bm_70U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

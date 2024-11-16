@@ -1,0 +1,50 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Deploy a new version to firebase distribute dev"
+  lane :deployDevelopment do
+        firebase_app_distribution(
+          app: "1:628769737989:android:6080c8792d5365f4cb3b6c",
+          firebase_cli_token: ENV["FIREBASE_TOKEN"],
+          release_notes: "[DEV] Build test app dev",
+          groups: "testers",
+          android_artifact_type: 'APK',
+          android_artifact_path: "../build/app/outputs/flutter-apk/app-development-release.apk"
+        )
+#         upload_to_play_store(
+#           track: "internal",
+#           aab: "../build/app/outputs/bundle/developmentRelease/app-development-release.aab",
+#           package_name: "vn.gov.hochiminhcity.medinet.ytetructuyen.stg"
+#         )
+  end
+    desc "Deploy a new version to firebase distribute prod"
+    lane :deployProduction do
+       firebase_app_distribution(
+           app: "1:628769737989:android:6080c8792d5365f4cb3b6c",
+           firebase_cli_token: ENV["FIREBASE_TOKEN"],
+           release_notes: "[PROD] Build test app prod",
+           groups: "testers",
+           android_artifact_type: 'APK',
+           android_artifact_path: "../build/app/outputs/flutter-apk/app-production-release.apk"
+       )
+#       upload_to_play_store(
+#           track: "internal",
+#           aab: "../build/app/outputs/bundle/productionRelease/app-production-release.aab"
+#       )
+    end
+end
